@@ -231,3 +231,141 @@ body{
 
 
 
+.popular{
+  background-color: #fff ;
+  background-image: url(imagenes/mapa.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1004px;
+  margin-top: 83px;
+}
+
+.cajita{
+  flex-direction: column;
+  display: flex ; 
+  align-items: end;    
+  margin-right: 100px;
+}
+
+.cajita div{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 659px;
+ align-items: center;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.gothailand{
+  transition: all 0.5s ease;
+}
+
+.gothailand:hover {
+ transform: scale(2.2);
+}
+
+.indonesia h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.goindonesia{
+  transition: all 0.5s ease;
+}
+
+.goindonesia:hover {
+ transform: scale(2.2);
+}
+
+.newzeland h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.gonew{
+  transition: all 0.5s ease;
+}
+
+.gonew:hover{
+ transform: scale(2.2);
+}
+
+
+
+
+
+
+.popular{
+    background-color: #fff ;
+    background-image: url(imagenes/mapa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 1004px;
+    margin-top: 83px;
+  }
+  
+  .cajita{
+    flex-direction: column;
+    display: flex ; 
+    align-items: end;    
+    margin-right: 100px;
+  }
+  
+  .cajita div{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 659px;
+   align-items: center;
+    box-shadow: 3px 3px 10px 0px #00000014;
+    margin-top: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .desc{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .gothailand{
+    transition: all 0.5s ease;
+  }
+  
+  .gothailand:hover {
+   transform: scale(2.2);
+  }
+  
+  .indonesia h3{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .goindonesia{
+    transition: all 0.5s ease;
+  }
+  
+  .goindonesia:hover {
+   transform: scale(2.2);
+  }
+  
+  .newzeland h3{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .gonew{
+    transition: all 0.5s ease;
+  }
+  
+  .gonew:hover{
+   transform: scale(2.2);
+  }
