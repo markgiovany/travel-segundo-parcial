@@ -241,17 +241,153 @@ body{
 
 
 
+.popular{
+  background-color: #fff ;
+  background-image: url(imagenes/mapa.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1004px;
+  margin-top: 83px;
+}
+
+.cajita{
+  flex-direction: column;
+  display: flex ; 
+  align-items: end;    
+  margin-right: 100px;
+}
+
+.cajita div{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 659px;
+ align-items: center;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.gothailand{
+  transition: all 0.5s ease;
+}
+
+.gothailand:hover {
+ transform: scale(2.2);
+}
+
+.indonesia h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.goindonesia{
+  transition: all 0.5s ease;
+}
+
+.goindonesia:hover {
+ transform: scale(2.2);
+}
+
+.newzeland h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.gonew{
+  transition: all 0.5s ease;
+}
+
+.gonew:hover{
+ transform: scale(2.2);
+}
 
 
 
+
+
+
+.popular{
+    background-color: #fff ;
+    background-image: url(imagenes/mapa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 1004px;
+    margin-top: 83px;
+  }
+  
+  .cajita{
+    flex-direction: column;
+    display: flex ; 
+    align-items: end;    
+    margin-right: 100px;
+  }
+  
+  .cajita div{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 659px;
+   align-items: center;
+    box-shadow: 3px 3px 10px 0px #00000014;
+    margin-top: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .desc{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .gothailand{
+    transition: all 0.5s ease;
+  }
+  
+  .gothailand:hover {
+   transform: scale(2.2);
+  }
+  
+  .indonesia h3{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .goindonesia{
+    transition: all 0.5s ease;
+  }
+  
+  .goindonesia:hover {
+   transform: scale(2.2);
+  }
+  
+  .newzeland h3{
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  
+  .gonew{
+    transition: all 0.5s ease;
+  }
+  
+  .gonew:hover{
+   transform: scale(2.2);
+  }
 
 .BestPackages{
     position: absolute;
     width: 1504px;
     height: 1119px;
     background: #ecf1f0;
-  }
-  .BestPackages h1{
+}
+
+.BestPackages h1{
     color: #000;
     margin: 0px;
     padding: 25px;
@@ -259,9 +395,9 @@ body{
     font-weight: 720;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-  }
+}
   
-  .Buttons {
+.Buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 50px; 
@@ -269,9 +405,9 @@ body{
     margin-top: 20px;
     justify-content: center; 
     align-items: flex-start; 
-  }
+}
   
-  .Buttons .btn_gray {
+  .Buttons .btn_gray{
     width: 180px;
     height: 60px;
     background: #666;
@@ -285,11 +421,12 @@ body{
     color: #f0f0f0;
     text-align: center;
     transition: all 0.5s ease;
-  }
-  .Buttons .btn_gray:hover{
+}
+  
+.Buttons .btn_gray:hover{
     background: #00A651;
     color: #fff;
-  }
+}
   
 
 .BestPackages_Container{
@@ -297,9 +434,9 @@ body{
     margin: 70px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 90px;
-  }
+}
   
-  .BestPackages_white_container{
+.BestPackages_white_container{
     position: relative;
     bottom: 190px;
     background: #fff;
@@ -307,84 +444,87 @@ body{
     border-bottom-right-radius:  20px;
     height: 180px;
     width: 400px;
-  }
+}
   
-  .Destinations img{
+.Destinations img{
     position: relative;
     bottom: 27px;
     width: 400px;
     height: 485px;
-  }
+}
   
-  .Destinations h1{
+.Destinations h1{
     font-size: 20px;
     font-weight: 400;
     position: relative;
     left: -100px;
     bottom: 18px;
-  }
+}
   
-  .Destinations h2{
+.Destinations h2{
     font-size: 20px;
     font-weight: 400;
     position: relative;
     left: 260px;
     bottom: 70px;
-  }
+}
   
-  .Destinations p{
+.Destinations p{
     font-size: 16px;
     position: relative;
     left: 10px;
     bottom: 50px;
     padding: 5px;
-  }
+}
   
-  .Text{
+.Text{
     display: flex;
-  }
+}
   
-  .Text img{
+.Text img{
     position: relative;
     bottom: 20px;
     left: 8px;
     width: 20px;
     height: 20px;
-  }
+}
   
-  .Text h3{
+.Text h3{
     position: relative;
     left: 15px;
     bottom: 25px;
     font-size: 20px;
     font-weight: 600;
-  }
-  .Text h4{
+ }
+  
+.Text h4{
     position: relative;
     left: 180px;
     bottom: 23px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
-  }
-  .Text h5{
+}
+
+.Text h5{
     position: relative;
     left: 225px;
     bottom: 23px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
-  }
+}
 
-  .Text a{
+.Text a{
     color: inherit;
-  }
-  .Text a:hover{
+}
+
+.Text a:hover{
     color: inherit;
     transform: scale(1.1);
-  }
+}
   
-  .btn_green3{
+.btn_green3{
     position: absolute;
     left: 620px;
     width: 300px;
@@ -400,12 +540,10 @@ body{
     text-decoration: none;
     padding: 12px 0;
     transition: all 0.5s ease;
-  }
+}
   
-  .btn_green3:hover{
+.btn_green3:hover{
     background-color: #fff;
     color: #00A651;
-  }
-
-
+}
 
