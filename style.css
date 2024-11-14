@@ -556,7 +556,7 @@ body{
 
 
 .BookTrip_Container {
-    transform: translateY(1100px);
+    transform: translateY(1150px);
     max-width: 900px;
     margin: auto;
   }
@@ -623,7 +623,7 @@ body{
     font-size: 16px;
     color: #5E6282;
     margin: -45px 0 0 -165px;
-    padding: 0px 777px 100px 318px;
+    padding: 0px 600px 100px 318px;
     position: absolute;
   }
   
@@ -686,8 +686,8 @@ body{
   
   .Progress_Card {
   position: absolute;
-    right: 225px;
-    top: 420px;
+    right: -118px;
+    top: 380px;
     background: #fff;
     padding: 0px 18px 106px 128px;
     border-radius: 18px;
